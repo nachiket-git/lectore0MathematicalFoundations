@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Foundations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mathematical Foundations: Advanced Topics and Applications</h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Singular Value Decomposition (SVD)</h2>
+            <p>
+                Singular Value Decomposition (SVD) is a factorization of a matrix A into three components:
+                <code>A = U Σ V^T</code>, where:
+                <ul>
+                    <li><strong>U:</strong> Orthogonal matrix containing the left singular vectors.</li>
+                    <li><strong>Σ:</strong> Diagonal matrix with singular values.</li>
+                    <li><strong>V^T:</strong> Transpose of an orthogonal matrix containing the right singular vectors.</li>
+                </ul>
+                SVD is widely used in dimensionality reduction, noise reduction in images, and recommender systems.
+            </p>
+            <h3>Example Problem</h3>
+            <p>Decompose the matrix:</p>
+            <pre><code>import numpy as np
+# Define matrix A
+A = np.array([[3, 1], [1, 3]])
+
+# Perform SVD
+U, S, VT = np.linalg.svd(A)
+print("Matrix U (Left Singular Vectors):", U)
+print("Singular Values (Diagonal of Σ):", S)
+print("Matrix V^T (Right Singular Vectors Transposed):", VT)</code></pre>
+        </section>
+        <section>
+            <h2>2. Visualization of Eigenvectors</h2>
+            <p>
+                Eigenvectors are crucial for understanding transformations in linear algebra. Below is how to visualize them using Matplotlib.
+            </p>
+            <pre><code>import numpy as np
+import matplotlib.pyplot as plt
+
+# Define matrix
+A = np.array([[3, 1], [1, 3]])
+
+# Compute eigenvalues and eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(A)
+
+# Plot original basis vectors and eigenvectors
+...</code></pre>
+        </section>
+        <section>
+            <h2>3. Real-World Application: Image Compression Using SVD</h2>
+            <p>
+                One fascinating application of SVD is image compression. Images are matrices where each entry represents pixel intensity. By retaining only the top singular values, we can compress the image significantly.
+            </p>
+            <pre><code>from skimage import color, io
+import matplotlib.pyplot as plt
+
+# Load an image and convert to grayscale
+...</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>Mathematical Foundations &copy; 2024</p>
+    </footer>
+</body>
+</html>
