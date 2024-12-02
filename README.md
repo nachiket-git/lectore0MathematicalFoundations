@@ -9,7 +9,7 @@
 ## 📌 Repository Highlights
 - **Structured Lecture Materials:** Comprehensive notes, examples, and slides for each lecture.
 - **Worked-Out Examples:** Step-by-step solutions for topics like linear algebra, vector spaces, eigenvalues, and optimization.
-- **Interactive Learning:** Hands-on Jupyter notebooks and Markdown-based explanations.
+- **Interactive Learning:** Hands-on notebooks and Markdown-based explanations.
 - **Cheat Sheets:** Quick-reference summaries to enhance your revision process.
 - **Visual Aids:** Flowcharts, graphs, and visual explanations to simplify complex concepts.
 
