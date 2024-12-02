@@ -51,10 +51,13 @@
 ---
 
 ## ✨ Contributing
-Contributions are welcome! Feel free to create pull requests for:
-- Enhancements to notes or examples.
-- Fixes for any errors or typos.
-- Additional resources to improve learning.
+We welcome contributions! You can help improve this repository by submitting pull requests for:
+
+Enhancements to existing notes or examples.
+Fixes for errors, typos, or broken code.
+Adding new resources such as tutorials, code examples, or datasets.
+Improving clarity and readability of explanations.
+
 
 ---
 
